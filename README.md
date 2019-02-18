@@ -18,3 +18,4 @@ Structured authoring did not make the jump into modern web applications smoothly
   * make markdown more semantic and rendering more contextual
   * allow for **easy** extension of the base set of components by adding your own components.
   * Allow for **easy** interactivity and advanced visual design of documentation **with as little interference as possible in the text content**  -----> MODULAR DOCUMENTATION DESIGN
+  * Make **visual design** of documentation testable using **modern web development practices and frameworks**, while making **actual text readable by humans and parse-able by linting tools** to improve and automate the writing process.
