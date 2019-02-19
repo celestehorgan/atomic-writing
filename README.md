@@ -23,3 +23,22 @@ Structured authoring did not make the jump into modern web applications smoothly
 
 
 Is this a standard which is implemented or an implementation?
+
+
+## Princples
+
+### Atoms: Content blocks
+
+* The _key module component_ is a block of content.
+* A content block has at a minimum:
+  * A header
+  * some content
+* Content blocks can be as small as the minimum or as large as is needed. The spec does not seek to define what a semantically relevant content block is for any given project. 
+  * The project defines the size and conventions of content blocks depeding on their needs. Allow for emergent standards (i.e. angular-style commit messages
+* Content blocks should be _readable by humans_, beginning to end, without needing a rendering or compiling engine.
+
+
+### Molecules: Composers 
+
+
+### Organisms: Sites or site sections
