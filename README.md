@@ -27,6 +27,8 @@ Is this a standard which is implemented or an implementation?
 
 ## Princples
 
+At its heart, atomic writing is an _unopinionated structured authoring_ specification. It consists of 3 parts.
+
 ### Atoms: Content blocks
 
 * The _key module component_ is a block of content.
