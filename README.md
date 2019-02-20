@@ -1,8 +1,15 @@
-# The Atomic Writing Manifesto
+# Atomic Writing
 
-Topic based writing for the "learn to code" generation.
+Structured authoring for the "learn to code" generation.
 
-Structured authoring did not make the jump into modern web applications smoothly. Documenting Software as a Service systems, continuous delivery and cloud-based models simply is cumbersome and tired in DITA XML based systems. While the 
+## Context
+
+Structured authoring did not make the jump into modern web applications smoothly. 
+
+Documenting Software as a Service systems, continuous delivery and cloud-based models simply is cumbersome and tiring in DITA XML. There are many reasons for this:
+
+* Structured authoring formats are not readable by humans without passing through a rendering step
+* DITA XML
 
 ## The proposal
 
