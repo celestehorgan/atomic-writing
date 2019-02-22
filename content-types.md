@@ -25,7 +25,15 @@ Unstructured content can include modules of structured content, but structured c
 
 ## Structured Content
 
-Structured 
+Structured content is any content that must conform to a pattern. Patterns are defined and described by the teams doing the writing. 
 
+Examples of structured content are as follows:
+
+* UI tasks with numbered steps
+* API References
+* Release notes
 
 ## Content blocks
+
+Ideally, structured content is broken down further into repeatable blocks. Content blocks can repeat inside a page or across many pages.  
+
