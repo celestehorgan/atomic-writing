@@ -57,6 +57,8 @@ Content blocks are single-concern sections of content.  Once again, the content 
 
 Beyond that, content blocks are semantically undefined. Because we author using Markdown or similar lightweight text markup languages, we do don't include any metadata, tags, assosciations, keywords, etc. in a content block. These concerns should be factored out to _rendering components_. 
 
+Atomic writing should prioritize **human-readable content** at the content block level. 
+
 
 ## Technical Implications
 
@@ -64,5 +66,6 @@ Beyond that, content blocks are semantically undefined. Because we author using 
 
 A system supporting Atomic Writing must allow for the following:
 
-* Large text files interspersed with referenced smaller files
+* Content blocks which can be referenced easily, using a UUID or similar. Normal markdown linking (relative paths) also works.
+* Embeddable content blocks
 * 
