@@ -43,7 +43,9 @@ Examples of structured content are as follows:
 
 Structured content is _not_ a content taxonomy or classification in the traditional Information Mapping/DITA sense. API Referneces can have conceptual information in them if the team decides it's nessecary, for example. Structured content follows a predictable pattern which can be validated against and (in some cases), automated. 
 
-The key of atomic writing is in flexibility, so structured content can contain unstructured content blocks if the pattern allows
+The key of atomic writing is in flexibility, so structured content can contain unstructured content blocks if the pattern allows. However, this should be avoided. 
+
+The key advantage of using structured content is for **validation**: because structured content follows a predictable structure, rendering components can be designed around them, and their visual output can be validated using modern testing methodologies.
 
 ## Content blocks
 
@@ -55,3 +57,12 @@ Content blocks are single-concern sections of content.  Once again, the content 
 
 Beyond that, content blocks are semantically undefined. Because we author using Markdown or similar lightweight text markup languages, we do don't include any metadata, tags, assosciations, keywords, etc. in a content block. These concerns should be factored out to _rendering components_. 
 
+
+## Technical Implications
+
+### File structure
+
+A system supporting Atomic Writing must allow for the following:
+
+* Large text files interspersed with referenced smaller files
+* 
