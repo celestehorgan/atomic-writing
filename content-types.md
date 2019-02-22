@@ -53,4 +53,5 @@ Content blocks are single-concern sections of content.  Once again, the content 
 
 > A topic is a unit of information with a title and content, short enough to be specific to a single subject or answer a single question, but long enough to make sense on its own and be authored as a unit.
 
-Beyond that, content blocks are semantically undefined. Because we author using Markdown or similar lightweight text markup languages, we do don't include any metadata in a content block. 
+Beyond that, content blocks are semantically undefined. Because we author using Markdown or similar lightweight text markup languages, we do don't include any metadata, tags, assosciations, keywords, etc. in a content block. These concerns should be factored out to _rendering components_. 
+
