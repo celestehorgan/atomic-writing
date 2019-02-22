@@ -35,7 +35,8 @@ Examples of structured content are as follows:
 * API References
 * Release notes
 
+Structured content is _not_ a content taxonomy or classification in the traditional Information Mapping/DITA sense. API Referneces can have conceptual information in them if the team decides it's nessecary, for example. Structured content follows a predictable pattern which can be validated against and (in some cases), automated. 
+
 ## Content blocks
 
-Ideally, structured content is broken down further into repeatable blocks. Content blocks can repeat inside a page or across many pages.  
-
+A content block is a chunk of content and a header. 
