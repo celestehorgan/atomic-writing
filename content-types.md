@@ -2,6 +2,8 @@
 
 There are two types of content in any organization **structured** and **unstructured**.
 
+Atomic writing does not preference either type. An MDX and React architecture should handle both types with equal levels of ease.
+
 
 ## Unstructured Content 
 
