@@ -20,12 +20,7 @@ Documentation is a cross-cutting concern. It reaches its fullest potential to he
 
 In atomic writing, rather than worry about normal structured authoring concepts, like semantic tagging and namespaced markup languages, we emphasize the creation of human readable content. 
 
-We add 
-
-When we compse atoms into larger pages of structured or unstructured content, 
-
-When we compose atoms into larger pages – those which we will render into our final documentation site – 
-
+We add back in semantic concepts, like typed content, when we compose our atoms into larger content. This keeps the content itself readable by regular human beings, and keeps structured authoring abstractions – templates and layouts, topic-by-topic flow, 
 
 _seperation of semantic metadata and human-readable content_. 
 
@@ -36,12 +31,11 @@ In Atomic Writing, atoms (Content blocks) are always human-readable content. Wha
 
 * Between _authoring_ and _rendering_
 * Between _a single page_ and _the files which make up the page_ 
+* Between _the files that make up a page_ and _how the page is rendered_
 
+To the extent possible, we seperate writing from structure and presentation.
 
-To the extent possible, we seperate writing from presentation. 
-
-
-
+The goal is always _human readable and human editable content_. Anything else is too annoying to deal with. 
 
 ## Technical Implications
 
