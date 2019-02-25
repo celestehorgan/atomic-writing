@@ -66,6 +66,40 @@ Atomic writing should prioritize **human-readable content** at the content block
 
 A system supporting Atomic Writing must allow for the following:
 
-* Content blocks which can be referenced easily, using a UUID or similar. Normal markdown linking (relative paths) also works.
-* Embeddable content blocks
-* 
+* Content blocks which can be referenced easily, using a UUID or similar. Normal markdown linking (relative paths) should also work.
+
+* Embeddable content blocks:
+
+  ```
+  # A header 
+  
+  Some introductory text etc.
+  
+  <Topic href="subtopic.md"/> 
+  ```
+  
+  Where subtopic.md is:
+  ```
+  # A subtopic
+  
+  Some more text
+  ```
+  
+  Should render to:
+  
+  ```
+  # A header
+  
+  Some introductory text etc.
+  
+  ## A subtopic
+  
+  Some more text
+  
+  ```
+
+* Embedded content should be able to receive rendering props of various kinds.
+
+
+### Questions:
+- Embedding content OR orchestration files? (YAML)
