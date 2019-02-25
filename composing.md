@@ -18,9 +18,14 @@ _seperation of semantic metadata and human-readable content_.
 
 ## Seperation of concerns
 
-In Atomic Writing, atoms (Content blocks) are always human-readable content. To the extent possible§, we seperate writing from presentation. 
+In Atomic Writing, atoms (Content blocks) are always human-readable content. To the extent possible, we seperate writing from presentation. 
+
+However, in most modern web application architectures, presentation and content aren't
 
 
-§
+## Presentation layers, design systems, and Styled React components
+
+
+
 
 
