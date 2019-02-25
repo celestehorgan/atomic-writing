@@ -20,14 +20,11 @@ _seperation of semantic metadata and human-readable content_.
 
 In Atomic Writing, atoms (Content blocks) are always human-readable content. To the extent possible, we seperate writing from presentation. 
 
-However, in most modern web application architectures, presentation and content aren't seperated. Moreover, it's a misleading idea to think that content and presentation are _ever_ entirely seperate: Bulleted lists, headings, and tables are examples of presentation-in-content.
 
-What can (and should) be seperated 
 
 
 ## Presentation layers, design systems, and Styled React components
 
-
-
+However, in most modern web application architectures, presentation and content aren't seperated. Moreover, it's a misleading idea to think that content and presentation are _ever_ entirely seperate: Bulleted lists, headings, and tables are examples of presentation-in-content. The display of these elements is inherently related to the nature of the content they house. In other words, presentation influences meaning.
 
 
