@@ -41,4 +41,13 @@ The goal is always _human readable and human editable content_. Anything else is
 
 However, in most modern web application architectures, presentation and content aren't seperated. Moreover, it's a misleading idea to think that content and presentation are _ever_ entirely seperate: Bulleted lists, headings, and tables are examples of presentation-in-content. The display of these elements is inherently related to the nature of the content they house. In other words, presentation influences meaning.
 
+An implementation should do the following:
+
+* As a user, I want to author in _plain markdown_ whenever possible.
+* When needed, I want to pass _a plain markdown file_ to a _rendering component_ to display it in a particular way.
+* The _rendering component_ should..
+  * provide formatting or interactive functionality 
+  * provide validation(?) of the content in it. 
+  
+
 
